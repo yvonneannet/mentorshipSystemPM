@@ -1,0 +1,165 @@
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: #1B5351;
+    height: 430px;
+    padding: 30px;
+   
+   
+
+}
+#loginButton{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 80px;
+    margin-left: 60px;
+
+}
+
+#input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+#textAndlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  
+}
+
+#logoAndImage{
+    display: flex;
+    margin-left: 10px;
+}
+
+#welcomeText{
+    font-size: 3em;
+    color: #1B5351;
+}
+
+#wholeContent{
+   border: solid 2px;
+   margin-right: 20px;
+   width: fit-content;
+   margin-left: 260px;
+   margin-top: 80px;
+}
+
+#logo{
+    height:205px;
+    width:205px;
+   
+}
+
+#image_and_form{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+
+
+
+
+@media screen and (min-width:240px) and (max-width: 750px) {
+
+    #form{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    padding: 5px;
+    /* margin-top: -3; */
+}
+
+#textAndlogo{
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}
+
+#logoAndImage{
+    flex-wrap: wrap;
+}
+
+#welcomeText{
+    font-size: 2.5em;
+    color: #1B5351;
+}
+
+#wholeContent{
+   border: solid 2px;
+   margin-right: 10px;
+   width: fit-content;
+   margin-left: 0px;
+   margin-top: 80px;
+}
+
+#logo{
+    height:180px;
+    width:180px;
+}
+
+#image_and_form{
+    display: flex;
+   
+}
+    }
+
+
+
+
+
+@media screen and (min-width:751px) and (max-width: 1200px) {
+
+    #form{
+    flex-wrap: wrap;
+    flex-direction: column;
+   width: fit-content;
+    padding: 5px;
+    /* margin-top: -3; */
+}
+
+
+#textAndlogo{
+    flex-wrap: wrap;
+    flex-direction: column;
+  
+}
+
+#logoAndImage{
+    flex-wrap: wrap;
+}
+
+#welcomeText{
+    font-size: 2.5em;
+   
+}
+
+#wholeContent{
+   border: solid 2px;
+   
+   width: 700px;
+   margin-left: 100px;
+   margin-top: 0px;
+  
+}
+
+#logo{
+    height:180px;
+    width:180px;
+}
+
+#image_and_form{
+    display: flex;
+    /* margin-left: 147px; */
+    
+   
+}
+    }

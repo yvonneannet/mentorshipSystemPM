@@ -1,0 +1,121 @@
+
+body{
+    background-color: #1B5351;
+   
+    
+}
+
+#text{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 1%;
+    text-decoration: none;
+    
+}
+
+#text1{
+    font-size: 2.3em;
+    margin-top: 0.4%;
+}
+
+#text:hover{
+    color: rgb(0, 72, 255);
+
+} 
+
+.navbar{
+display: flex;
+justify-content: space-evenly;
+margin-top: 20px;
+
+}
+
+/* #textAndIcon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 57px;
+} */
+
+#glad-to-text{
+    font-size: 2.5em;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    font-size: 0.7em;
+    background-color: black;
+    color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 25px;
+    margin-left: 12px;
+    margin-right: 12px;
+    
+    
+    
+}
+
+#mentor{
+    width:300px;
+    height:250px;
+    border-radius: 15px;
+}
+
+#image{
+    width:60px;
+    height:60px;
+    
+}
+
+#setYourGoal{
+    text-align: center;
+    text-decoration: wavy;
+}
+
+#goalsColumns{
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+#textarea1{
+    border-radius: 15px;
+}
+
+#shorttermgoal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#longtermgoal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#careergoal{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:white
+}
+
+#editButton{
+color: white;
+background-color: black;
+padding: 10px;
+border-radius: 20px;
+border: none;
+width: 90px;
+margin-left: 80px;
+margin-top: 15px;
+}
